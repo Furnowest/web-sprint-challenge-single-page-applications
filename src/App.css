@@ -1,7 +1,52 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
+h1{
+  font-size: 30px;
+  color: rgb(187, 84, 84);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin-bottom: 40px;
+}
+.nav-link{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav-link a{
+  text-decoration: none;
+  font-weight: bolder;
+  margin-right: 8px;
+ 
+}
+.home-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.home-image{
+  width: 100%;
+  object-fit: cover;
+}
+
+.pizza-btn{
+  margin-top: -16px;
+  width: 200px;
+  font-size:20px;
+ 
+  border-bottom: 1px solid #1c5d76;
+}
+form{
+font-family:;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +59,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(146, 199, 199);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
